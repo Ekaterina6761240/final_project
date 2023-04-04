@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+  background: #ffffff;
+  display: flex;
+  height: 698px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header {
+  color: #4520ab;
+  width: 336px;
+  height: 52px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.entryField {
+  width: 500px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #111111;
+  border-radius: 14px;
+}
+
+.Btn {
+  width: 107px;
+  height: 38.08px;
+  background-color: #111111;
+  border-radius: 8px;
+  margin: 10px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 10 px;
+  letter-spacing: -0.03;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+input {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.05em;
+  margin: 0px 10px;
+  outline: 0;
+  border: none;
+}
+
+.clean {
+  display: flex;
+  justify-content: space-between;
+
+  width: 176px;
+  height: 38px;
+  background: #adadad;
+  border-radius: 8px;
+}
+
+.crossAll {
+  padding: 6px 0px 0px 10px;
+}
+
+.cleanTextP {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.05em;
+  padding: 6px 10px 10px 10px;
+  margin: 0px;
+}
+.newText {
+  width: 150px;
+}
+.Result {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+
+.RussianText {
+  width: 248px;
+  display: flex;
+
+  height: 56px;
+  background: #f0f0f0;
+  border-bottom: 1px solid #111111;
+  justify-content: space-between;
+}
+
+.number {
+  padding: 0px 25px 0px 10px;
+}
+
+.number1 {
+  padding: 0px 25px 0px 10px;
+}
+
+.TranslitText {
+  display: flex;
+  width: 248px;
+  height: 56px;
+  padding: 0px;
+  border-bottom: 1px solid #111111;
+  justify-content: space-between;
+  background: #adadad;
+}
+
+.column1 {
+  border: 5px solid #f0f0f0;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.column2 {
+  border: 5px solid #adadad;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+p {
+  padding: 0px 0px 0px 10px;
+}
+
+.firstWord {
+  padding: 0px 95px 0px 10px;
+}
+
+.text {
+  padding: 0px 60px 0px 10px;
+}
+
+.crossButton {
+  width: 24px;
+  height: 24px;
+  appearance: none;
+  border: 0;
+  background: url("../icons/cls-btn.svg");
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+}
+
+.btn1 {
+  width: 24px;
+  height: 24px;
+  appearance: none;
+  border: 0;
+  background: url("../icons/cls-btn.svg");
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+}
+
+.buttonCross1 {
+  width: 24px;
+  height: 24px;
+  appearance: none;
+  border: 0;
+  background: url("../icons/cls-btn.svg");
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  display: none;
+}
+
+.cross1 {
+  padding: 15px 10px 0px 0px;
+}
+
+.forBnt {
+  padding: 15px 10px 0px 0px;
+}
+
+.cross {
+  padding: 15px 10px 0px 0px;
+}
+
+.str {
+  display: flex;
+}
+
+.TatleColymn1 {
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  display: none;
+}
+
+.newTextTatle {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.newTextTatle2 {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.TatleColymn2 {
+  position: absolute;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  display: none;
+}
+.forBnt1 {
+    display: none;
+  }
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .number1 {
+    display: none;
+  }
+
+  .forBnt1 {
+    display: none;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 768px) {
+  body {
+    margin: 0px;
+  }
+
+  .firstWord {
+    padding: 0px 0px 0px 10px;
+  }
+
+  .entryField {
+    width: 328px;
+  }
+
+  input {
+    margin: 0px;
+    font-size: 15px;
+    width: 175px;
+  }
+
+  .Result {
+    width: 328px;
+  }
+
+  .header {
+    width: 308px;
+    font-size: 30px;
+  }
+
+  .TranslitText {
+    width: 164px;
+  }
+
+  .RussianText {
+    width: 164px;
+  }
+
+  .number1 {
+    display: none;
+  }
+
+  .forBnt1 {
+    display: none;
+  }
+  .text {
+    padding: 0px 0px 0px 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .header {
+    width: 308px;
+    font-size: 30px;
+  }
+
+  .firstWord {
+    padding: 0px 0px 0px 10px;
+  }
+
+  .forBnt1 {
+    padding: 15px 10px 0px 0px;
+  }
+
+  body {
+    width: 360px;
+    margin: 0px;
+  }
+
+  .entryField {
+    width: 300px;
+  }
+
+  input {
+    margin: 0px;
+    font-size: 13px;
+    width: 150px;
+  }
+
+  .Result {
+    display: flex;
+    flex-direction: column;
+    width: 164px;
+  }
+
+  .TranslitText {
+    width: 158px;
+  }
+
+  .RussianText {
+    width: 158px;
+  }
+
+  .column1 {
+    border: 5px solid #f0f0f0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .column2 {
+    border: 5px solid #adadad;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 0px;
+  }
+
+  .buttonCross1 {
+    display: block;
+  }
+
+  .text {
+    padding: 0px 0px 0px 10px;
+  }
+  .number1 {
+    padding: 0px 0px 0px 10px;
+  }
+  .number {
+    padding: 0px 0px 0px 10px;
+  }
+  .forBnt1 {
+    display: block;
+  }
+}
